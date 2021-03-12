@@ -1,0 +1,28 @@
+{% extends 'main/layout.html' %}
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+    <div class="feare">
+        <h1>{{ title }}</h1>
+          <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="single-post">
+                        <h3 class="post-category">Подробнее</h3>
+                        <h2 class="post-title"><a href="#">Приветствуем вас!</a></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est inventore iusto, nobis
+                            officiis quaerat ut? Ab aliquid architecto atque aut consequuntur culpa deserunt esse ex
+                            exercitationem facere id iste laudantium magnam natus necessitatibus nulla odit officia
+                            praesentium, ratione sequi sit tenetur unde! Beatae, cupiditate dicta error est et expedita
+                            id itaque, nobis non omnis perspiciatis repellat, rerum voluptates? Dolorem, quam, vero? A
+                            aliquid assumenda dignissimos enim error excepturi exercitationem fugiat hic itaque
+                            necessitatibus nesciunt nihil non odit quam quia reiciendis repudiandae ut velit, veritatis,
+                            voluptatibus? Atque debitis dignissimos inventore, minima molestiae neque placeat possimus
+                            quam quas similique vitae, voluptates.</p>
+                        <p><a href="#" class="link-more">Оставьте комментарий.</a></p>
+                        <a href="{% url 'create' %}"><li><button type="button" class="btn btn-outline-danger "><i class="fas fa-plus-circle"></i> Добавить статью</li></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+{% endblock %}

@@ -1,0 +1,142 @@
+body {
+    background: #181818;
+    color: #fff;
+}
+
+aside {
+    float: left;
+    background: black;
+    width: 16%;
+    padding: 2.5%;
+    height: 100vh;
+    color: fff;
+    border-right: 5x solid #4d4d4d;
+    font-family: 'Inconsolata', monospace;
+}
+
+aside img {
+    margin-left: 24px;
+    width: 80px;
+}
+
+aside .logo {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+h2, h3{
+    margin: 1rem 0;
+    font-size: 30px;
+}
+
+a{
+    color: #b4ad9e;
+}
+a:hover{
+    color: #898377;
+}
+
+
+p, a{
+    line-height: 1.5rem;
+}
+
+aside h3 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+aside {list-style: none}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .feare {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .feare h1 {font-size: 50px;}
+main .feare p {max-width: 400x; margin: 20px auto;}
+
+.alert-warning {
+    color: black;
+    float: left;
+    clear: both;
+    width: 400 px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 25%;
+    margin-top: 10px;
+    width: 50%;
+    font-size: 14px;
+}
+
+feare .body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.post-category,
+.link-more{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.post-title a{
+    color:#626262;
+}
+
